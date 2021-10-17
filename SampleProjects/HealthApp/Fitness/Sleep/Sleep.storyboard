@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tlu-eK-efZ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sleep-->
+        <scene sceneID="Veh-Gq-A2i">
+            <objects>
+                <viewController id="UvE-XM-2ZK" customClass="SleepViewController" customModule="Fitness" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y9k-fI-bt1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eAC-St-4Pp">
+                                <rect key="frame" x="0.0" y="140" width="414" height="673"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Lq6-cc-78c">
+                                        <rect key="frame" x="20" y="20" width="374" height="115"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="NzY-zi-mC0" userLabel="Streak Progress">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="74"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="Psh-hY-Oqi" userLabel="Bedtime">
+                                                        <rect key="frame" x="0.0" y="0.0" width="183" height="74"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bedtime" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ImJ-0L-Hd4">
+                                                                <rect key="frame" x="0.0" y="0.0" width="183" height="30"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                                                <color key="textColor" name="fifthColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:00 AM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qo0-Lw-0V9">
+                                                                <rect key="frame" x="0.0" y="44" width="183" height="30"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                                                <color key="textColor" name="thirdColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="NqS-Wc-4lA" userLabel="Wake Up">
+                                                        <rect key="frame" x="191" y="0.0" width="183" height="74"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wake Up" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYf-Cj-Cuf">
+                                                                <rect key="frame" x="0.0" y="0.0" width="183" height="30"/>
+                                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                                                <color key="textColor" name="fourthColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7:00 AM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkB-Bo-buQ">
+                                                                <rect key="frame" x="0.0" y="44" width="183" height="30"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                                                <color key="textColor" name="thirdColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O0e-21-deK">
+                                                <rect key="frame" x="157" y="82" width="60" height="33"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <state key="normal" title="Change">
+                                                    <color key="titleColor" name="secondColor"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="qrJ-ps-7QF" kind="popoverPresentation" popoverAnchorView="O0e-21-deK" id="cZI-pl-l8A">
+                                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                                    </segue>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="NzY-zi-mC0" firstAttribute="leading" secondItem="Lq6-cc-78c" secondAttribute="leading" id="3zl-Qh-x1z"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="Lq6-cc-78c" firstAttribute="top" secondItem="eAC-St-4Pp" secondAttribute="top" constant="20" id="812-U6-wDv"/>
+                                    <constraint firstAttribute="trailing" secondItem="Lq6-cc-78c" secondAttribute="trailing" constant="20" id="NjR-Jm-rdZ"/>
+                                    <constraint firstItem="Lq6-cc-78c" firstAttribute="leading" secondItem="eAC-St-4Pp" secondAttribute="leading" constant="20" id="w7l-Ce-n0a"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="eAC-St-4Pp" firstAttribute="leading" secondItem="bg7-uT-FE7" secondAttribute="leading" id="4KB-if-Ofv"/>
+                            <constraint firstItem="eAC-St-4Pp" firstAttribute="top" secondItem="bg7-uT-FE7" secondAttribute="top" id="6aE-52-p4i"/>
+                            <constraint firstItem="eAC-St-4Pp" firstAttribute="bottom" secondItem="bg7-uT-FE7" secondAttribute="bottom" id="A8o-uA-Own"/>
+                            <constraint firstItem="eAC-St-4Pp" firstAttribute="centerX" secondItem="y9k-fI-bt1" secondAttribute="centerX" id="orD-zB-r5c"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bg7-uT-FE7"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Sleep" leftItemsSupplementBackButton="YES" id="CLL-zr-KEe">
+                        <barButtonItem key="leftBarButtonItem" title="Settings" id="ylX-RC-h9q">
+                            <connections>
+                                <segue destination="iN9-0m-mic" kind="show" id="gXl-fF-eIH"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WmB-Gu-cBv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2615.9420289855075" y="975.66964285714278"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7su-iX-Zac">
+            <objects>
+                <viewController id="iN9-0m-mic" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wpt-fz-L5A">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GeI-ks-oO2">
+                                <rect key="frame" x="101" y="140" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yW1-i3-Z8C">
+                                <rect key="frame" x="138" y="270" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="H52-gW-RiX"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="CEg-fn-ufT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BgM-9P-b9b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3444.9275362318845" y="975.66964285714278"/>
+        </scene>
+        <!--Sleep-->
+        <scene sceneID="ADd-To-hiu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tlu-eK-efZ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Sleep" image="Sleep" id="jmz-DJ-hHP"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="Cfi-Xd-ztu">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="UvE-XM-2ZK" kind="relationship" relationship="rootViewController" id="Z4b-tb-9M5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1O5-IM-yUM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1727.536231884058" y="976.33928571428567"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="U1k-3S-Per">
+            <objects>
+                <viewController id="qrJ-ps-7QF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kd1-LN-q14">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" id="jkk-G5-FYw">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JFt-0v-Hay">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="TeF-HR-PKF"/>
+                                        </constraints>
+                                        <items>
+                                            <navigationItem title="Sleep" id="0xt-eo-1Ac">
+                                                <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="j4B-Ug-Y5H">
+                                                    <color key="tintColor" red="0.2784313725" green="0.62352941179999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </barButtonItem>
+                                            </navigationItem>
+                                        </items>
+                                    </navigationBar>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="2k0-Ho-BHd">
+                                        <rect key="frame" x="90" y="69" width="234" height="32"/>
+                                        <segments>
+                                            <segment title="Bedtime"/>
+                                            <segment title="Wake Up"/>
+                                        </segments>
+                                    </segmentedControl>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.98236833830000003" green="0.97911269430000003" blue="0.97911269430000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="2k0-Ho-BHd" firstAttribute="top" secondItem="JFt-0v-Hay" secondAttribute="bottom" constant="25" id="Bl0-VO-lxD"/>
+                                    <constraint firstItem="JFt-0v-Hay" firstAttribute="top" secondItem="4RC-Yo-EcG" secondAttribute="top" id="XEB-jR-WvW"/>
+                                    <constraint firstItem="4RC-Yo-EcG" firstAttribute="trailing" secondItem="2k0-Ho-BHd" secondAttribute="trailing" constant="90" id="ZLa-vC-vC4"/>
+                                    <constraint firstItem="JFt-0v-Hay" firstAttribute="leading" secondItem="4RC-Yo-EcG" secondAttribute="leading" id="kqd-Ed-Cqc"/>
+                                    <constraint firstItem="JFt-0v-Hay" firstAttribute="centerX" secondItem="jkk-G5-FYw" secondAttribute="centerX" id="vcV-Cd-d5k"/>
+                                    <constraint firstItem="2k0-Ho-BHd" firstAttribute="leading" secondItem="4RC-Yo-EcG" secondAttribute="leading" constant="90" id="wtd-z1-gmO"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="4RC-Yo-EcG"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="L5R-xn-agB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="YJk-GO-kGK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DaL-p8-Yrt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" id="PT3-uF-Ynb">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's your wake up time?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mda-5R-i7m">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xpj-yW-vOC">
+                            <rect key="frame" x="0.0" y="50" width="320" height="150"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="150" id="Y0D-ug-4sD"/>
+                            </constraints>
+                        </pickerView>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="G3c-c2-Bhn"/>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" id="Mng-Tc-o3B">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When's your bedtime?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="McL-cJ-yro">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bky-uq-Emx">
+                            <rect key="frame" x="0.0" y="50" width="320" height="150"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="150" id="Jl0-nf-Jab"/>
+                            </constraints>
+                        </pickerView>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="eKt-0b-dbS"/>
+                </stackView>
+            </objects>
+            <point key="canvasLocation" x="2615.9420289855075" y="216.96428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Sleep" width="30" height="30"/>
+        <namedColor name="fifthColor">
+            <color red="0.99215686274509807" green="0.51372549019607838" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="fourthColor">
+            <color red="0.99215686274509807" green="0.3843137254901961" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="secondColor">
+            <color red="0.62352941176470589" green="0.66274509803921566" blue="0.73725490196078436" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="thirdColor">
+            <color red="0.36078431372549019" green="0.396078431372549" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+    <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+</document>

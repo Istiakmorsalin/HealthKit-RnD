@@ -1,0 +1,928 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7ECA7ABE99E82D945FAE8D1D /* Pods_Fitness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320D23F92B73D567CED940E /* Pods_Fitness.framework */; };
+		C51CF38F24EAD20C00880C53 /* MealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51CF38E24EAD20C00880C53 /* MealsViewController.swift */; };
+		C532368023C29D5F005C49EC /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C532367F23C29D5F005C49EC /* Workout.swift */; };
+		C532368823C2A590005C49EC /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C532368723C2A590005C49EC /* String.swift */; };
+		C536F761237EDF3B00631ADB /* HabitCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536F760237EDF3B00631ADB /* HabitCreationViewController.swift */; };
+		C536F765237EE22500631ADB /* FHDayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536F764237EE22500631ADB /* FHDayButton.swift */; };
+		C536F76A237F272000631ADB /* FHDayHabits.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536F769237F272000631ADB /* FHDayHabits.swift */; };
+		C536F76C2380074B00631ADB /* FHColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536F76B2380074B00631ADB /* FHColorButton.swift */; };
+		C536F76E23801CFA00631ADB /* FHNoHabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536F76D23801CFA00631ADB /* FHNoHabitsView.swift */; };
+		C536F77423803C9900631ADB /* FHIdeasButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536F77323803C9900631ADB /* FHIdeasButton.swift */; };
+		C53D29FA24EAA0CA00A96B42 /* HabitsWalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53D29F924EAA0CA00A96B42 /* HabitsWalkthroughViewController.swift */; };
+		C540F5F723912BE300CD26ED /* Persistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C540F5F623912BE300CD26ED /* Persistable.swift */; };
+		C5483F1E2395A80A003099F3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5483F1D2395A80A003099F3 /* ProfileViewController.swift */; };
+		C54A307F23C653A800BBDE19 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54A307E23C653A800BBDE19 /* Colors.swift */; };
+		C54A308223C6540100BBDE19 /* SimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54A308123C6540100BBDE19 /* SimpleButton.swift */; };
+		C54A308423C654CB00BBDE19 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54A308323C654CB00BBDE19 /* CustomButton.swift */; };
+		C54A308623C65ACC00BBDE19 /* FALoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54A308523C65ACC00BBDE19 /* FALoadingButton.swift */; };
+		C554EF2B23C0C2BC00CCFC50 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = C554EF2A23C0C2BB00CCFC50 /* Date.swift */; };
+		C559B88623C01EC700261A3E /* HabitProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C559B88523C01EC700261A3E /* HabitProgressView.swift */; };
+		C564E8632376EAEA00190832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C564E8622376EAEA00190832 /* AppDelegate.swift */; };
+		C564E8652376EAEA00190832 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C564E8642376EAEA00190832 /* SceneDelegate.swift */; };
+		C564E8672376EAEA00190832 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C564E8662376EAEA00190832 /* MainViewController.swift */; };
+		C564E86A2376EAEA00190832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C564E8682376EAEA00190832 /* Main.storyboard */; };
+		C564E86F2376EAED00190832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C564E86E2376EAED00190832 /* Assets.xcassets */; };
+		C564E8722376EAED00190832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C564E8702376EAED00190832 /* LaunchScreen.storyboard */; };
+		C564E87A2376EB0800190832 /* Summary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C564E8792376EB0800190832 /* Summary.storyboard */; };
+		C564E87D2376F0B800190832 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C564E87C2376F0B800190832 /* AuthenticationViewController.swift */; };
+		C564E87F2376F0DD00190832 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C564E87E2376F0DD00190832 /* Authentication.storyboard */; };
+		C56BE7BF239865E800413017 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56BE7BE239865E800413017 /* ForgotPasswordViewController.swift */; };
+		C56BE7C22398664100413017 /* FAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56BE7C12398664100413017 /* FAButton.swift */; };
+		C56F52882396A38600823DA1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56F52872396A38600823DA1 /* SignUpViewController.swift */; };
+		C576FFA8238DAD1200037446 /* HabitDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C576FFA7238DAD1200037446 /* HabitDetailsViewController.swift */; };
+		C576FFAB238DAF9E00037446 /* FHTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C576FFAA238DAF9E00037446 /* FHTypeView.swift */; };
+		C576FFAD238EFCB500037446 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C576FFAC238EFCB500037446 /* Reminder.swift */; };
+		C58AB5C123789E3100BB3313 /* Meals.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58AB5C023789E3100BB3313 /* Meals.storyboard */; };
+		C58AB5C323789E4200BB3313 /* Sleep.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58AB5C223789E4200BB3313 /* Sleep.storyboard */; };
+		C58AB5C62378A73000BB3313 /* Habits.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58AB5C52378A73000BB3313 /* Habits.storyboard */; };
+		C593F40E239829A400BB5575 /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C593F40D239829A400BB5575 /* Extenstions.swift */; };
+		C59694CB238C8E110079761F /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59694CA238C8E110079761F /* Progress.swift */; };
+		C59694CD238C8EAB0079761F /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59694CC238C8EAB0079761F /* Habit.swift */; };
+		C5A5C251237DC5170043F89D /* MapWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A5C250237DC5170043F89D /* MapWorkoutView.swift */; };
+		C5A5C253237DC6EE0043F89D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5A5C252237DC6EE0043F89D /* Colors.xcassets */; };
+		C5B09B46239075CA00FE5FE3 /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B09B45239075CA00FE5FE3 /* Networkable.swift */; };
+		C5B09B492391292200FE5FE3 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B09B482391292100FE5FE3 /* NetworkService.swift */; };
+		C5B09B4B2391294500FE5FE3 /* PresistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B09B4A2391294500FE5FE3 /* PresistenceService.swift */; };
+		C5BC732E23C38A5100A9F50A /* FWEndWorkoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BC732D23C38A5100A9F50A /* FWEndWorkoutButton.swift */; };
+		C5BC733023C38AD300A9F50A /* FWPauseWorkoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BC732F23C38AD300A9F50A /* FWPauseWorkoutButton.swift */; };
+		C5BE958923BE9C0700A342A3 /* HabitMarkCompletedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BE958823BE9C0700A342A3 /* HabitMarkCompletedButton.swift */; };
+		C5C3066123C41C1700B43A66 /* Fitness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5C3065F23C41C1700B43A66 /* Fitness.xcdatamodeld */; };
+		C5C3066523C47F9D00B43A66 /* WorkoutWalkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C3066323C47F9D00B43A66 /* WorkoutWalkTableViewCell.swift */; };
+		C5C3066623C47F9D00B43A66 /* WorkoutWalkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5C3066423C47F9D00B43A66 /* WorkoutWalkTableViewCell.xib */; };
+		C5C3066923C4B7D700B43A66 /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C3066823C4B7D700B43A66 /* SleepViewController.swift */; };
+		C5C3A7D5237857FE00AA773D /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C3A7D4237857FE00AA773D /* SummaryViewController.swift */; };
+		C5C3A7DC23788C8A00AA773D /* Workout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C3A7DB23788C8A00AA773D /* Workout.storyboard */; };
+		C5C8012A237DD12200584789 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C80129237DD12200584789 /* HistoryViewController.swift */; };
+		C5C8012C237DD78E00584789 /* WalkRunCycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8012B237DD78E00584789 /* WalkRunCycleViewController.swift */; };
+		C5E0A76E239337E200D160D9 /* HabitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E0A76C239337E200D160D9 /* HabitTableViewCell.swift */; };
+		C5E0A76F239337E200D160D9 /* HabitTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5E0A76D239337E200D160D9 /* HabitTableViewCell.xib */; };
+		C5E0A77223946AEB00D160D9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E0A77123946AEB00D160D9 /* User.swift */; };
+		C5E0A77723959BB000D160D9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E0A77623959BB000D160D9 /* LoginViewController.swift */; };
+		C5E67F2223A0FFF200815D34 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E67F2123A0FFF200815D34 /* Configuration.swift */; };
+		C5E83D8324E6EE1100AA8662 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5E83D8224E6EE1100AA8662 /* GoogleService-Info.plist */; };
+		C5EB78CC23A181670019BD16 /* FATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EB78CB23A181670019BD16 /* FATextField.swift */; };
+		C5F6733B2379977400BACBFA /* HabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F6733A2379977400BACBFA /* HabitsViewController.swift */; };
+		C5F6D397237C535600D7C2AF /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F6D396237C535600D7C2AF /* WorkoutViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0320D23F92B73D567CED940E /* Pods_Fitness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fitness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51CF38E24EAD20C00880C53 /* MealsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsViewController.swift; sourceTree = "<group>"; };
+		C532367F23C29D5F005C49EC /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		C532368123C29D6A005C49EC /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		C532368323C29D74005C49EC /* Walk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walk.swift; sourceTree = "<group>"; };
+		C532368523C29D80005C49EC /* Cycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cycle.swift; sourceTree = "<group>"; };
+		C532368723C2A590005C49EC /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		C536F760237EDF3B00631ADB /* HabitCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCreationViewController.swift; sourceTree = "<group>"; };
+		C536F764237EE22500631ADB /* FHDayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDayButton.swift; sourceTree = "<group>"; };
+		C536F769237F272000631ADB /* FHDayHabits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDayHabits.swift; sourceTree = "<group>"; };
+		C536F76B2380074B00631ADB /* FHColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHColorButton.swift; sourceTree = "<group>"; };
+		C536F76D23801CFA00631ADB /* FHNoHabitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHNoHabitsView.swift; sourceTree = "<group>"; };
+		C536F77323803C9900631ADB /* FHIdeasButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHIdeasButton.swift; sourceTree = "<group>"; };
+		C53D29F924EAA0CA00A96B42 /* HabitsWalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsWalkthroughViewController.swift; sourceTree = "<group>"; };
+		C540F5F623912BE300CD26ED /* Persistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistable.swift; sourceTree = "<group>"; };
+		C5483F1D2395A80A003099F3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C54A307E23C653A800BBDE19 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		C54A308123C6540100BBDE19 /* SimpleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleButton.swift; sourceTree = "<group>"; };
+		C54A308323C654CB00BBDE19 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		C54A308523C65ACC00BBDE19 /* FALoadingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FALoadingButton.swift; sourceTree = "<group>"; };
+		C554EF2A23C0C2BB00CCFC50 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		C559B88523C01EC700261A3E /* HabitProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitProgressView.swift; sourceTree = "<group>"; };
+		C564E85F2376EAEA00190832 /* Habitude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habitude.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C564E8622376EAEA00190832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C564E8642376EAEA00190832 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C564E8662376EAEA00190832 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C564E8692376EAEA00190832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C564E86E2376EAED00190832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C564E8712376EAED00190832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C564E8732376EAED00190832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C564E8792376EB0800190832 /* Summary.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Summary.storyboard; sourceTree = "<group>"; };
+		C564E87C2376F0B800190832 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		C564E87E2376F0DD00190832 /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		C56BE7BE239865E800413017 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		C56BE7C12398664100413017 /* FAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAButton.swift; sourceTree = "<group>"; };
+		C56F52872396A38600823DA1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C576FFA7238DAD1200037446 /* HabitDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailsViewController.swift; sourceTree = "<group>"; };
+		C576FFAA238DAF9E00037446 /* FHTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHTypeView.swift; sourceTree = "<group>"; };
+		C576FFAC238EFCB500037446 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		C58AB5C023789E3100BB3313 /* Meals.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Meals.storyboard; sourceTree = "<group>"; };
+		C58AB5C223789E4200BB3313 /* Sleep.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sleep.storyboard; sourceTree = "<group>"; };
+		C58AB5C52378A73000BB3313 /* Habits.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Habits.storyboard; sourceTree = "<group>"; };
+		C593F40D239829A400BB5575 /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
+		C59694CA238C8E110079761F /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		C59694CC238C8EAB0079761F /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		C5A5C250237DC5170043F89D /* MapWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapWorkoutView.swift; sourceTree = "<group>"; };
+		C5A5C252237DC6EE0043F89D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		C5B09B45239075CA00FE5FE3 /* Networkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkable.swift; sourceTree = "<group>"; };
+		C5B09B482391292100FE5FE3 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		C5B09B4A2391294500FE5FE3 /* PresistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresistenceService.swift; sourceTree = "<group>"; };
+		C5BC732D23C38A5100A9F50A /* FWEndWorkoutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWEndWorkoutButton.swift; sourceTree = "<group>"; };
+		C5BC732F23C38AD300A9F50A /* FWPauseWorkoutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWPauseWorkoutButton.swift; sourceTree = "<group>"; };
+		C5BE958823BE9C0700A342A3 /* HabitMarkCompletedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitMarkCompletedButton.swift; sourceTree = "<group>"; };
+		C5C3066023C41C1700B43A66 /* Fitness.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fitness.xcdatamodel; sourceTree = "<group>"; };
+		C5C3066323C47F9D00B43A66 /* WorkoutWalkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutWalkTableViewCell.swift; sourceTree = "<group>"; };
+		C5C3066423C47F9D00B43A66 /* WorkoutWalkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkoutWalkTableViewCell.xib; sourceTree = "<group>"; };
+		C5C3066823C4B7D700B43A66 /* SleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewController.swift; sourceTree = "<group>"; };
+		C5C3A7D4237857FE00AA773D /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		C5C3A7DB23788C8A00AA773D /* Workout.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Workout.storyboard; sourceTree = "<group>"; };
+		C5C80129237DD12200584789 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		C5C8012B237DD78E00584789 /* WalkRunCycleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkRunCycleViewController.swift; sourceTree = "<group>"; };
+		C5E0A76C239337E200D160D9 /* HabitTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTableViewCell.swift; sourceTree = "<group>"; };
+		C5E0A76D239337E200D160D9 /* HabitTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HabitTableViewCell.xib; sourceTree = "<group>"; };
+		C5E0A77123946AEB00D160D9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C5E0A77623959BB000D160D9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C5E67F2123A0FFF200815D34 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		C5E83D8224E6EE1100AA8662 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C5EB78CB23A181670019BD16 /* FATextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FATextField.swift; sourceTree = "<group>"; };
+		C5F6733A2379977400BACBFA /* HabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewController.swift; sourceTree = "<group>"; };
+		C5F6D396237C535600D7C2AF /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		D6C7ED1E3FE26EDC81F9BBC6 /* Pods-Fitness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitness.release.xcconfig"; path = "Target Support Files/Pods-Fitness/Pods-Fitness.release.xcconfig"; sourceTree = "<group>"; };
+		FDE65D7EC97AD91B7ABB2A57 /* Pods-Fitness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitness.debug.xcconfig"; path = "Target Support Files/Pods-Fitness/Pods-Fitness.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C564E85C2376EAEA00190832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECA7ABE99E82D945FAE8D1D /* Pods_Fitness.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70CB5D80D3356B7CC3696217 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0320D23F92B73D567CED940E /* Pods_Fitness.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CF1DE19E77EEF205BC869EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDE65D7EC97AD91B7ABB2A57 /* Pods-Fitness.debug.xcconfig */,
+				D6C7ED1E3FE26EDC81F9BBC6 /* Pods-Fitness.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C51CF38D24EAD1FF00880C53 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C51CF38E24EAD20C00880C53 /* MealsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C536F762237EE12D00631ADB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C59694CC238C8EAB0079761F /* Habit.swift */,
+				C59694CA238C8E110079761F /* Progress.swift */,
+				C576FFAC238EFCB500037446 /* Reminder.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C536F763237EE1FF00631ADB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C576FFA9238DAF6900037446 /* Habit Creation */,
+				C559B88421DAF26F00261A3E /* Habit Progress View MVVM */,
+				C55AF7BA23BE1024003733CF /* Habit Table Cell MVVM */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C536F766237EE37100631ADB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5F6733A2379977400BACBFA /* HabitsViewController.swift */,
+				C536F760237EDF3B00631ADB /* HabitCreationViewController.swift */,
+				C576FFA7238DAD1200037446 /* HabitDetailsViewController.swift */,
+				C53D29F924EAA0CA00A96B42 /* HabitsWalkthroughViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C536F76F23802B9200631ADB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C532367F23C29D5F005C49EC /* Workout.swift */,
+				C532368323C29D74005C49EC /* Walk.swift */,
+				C532368123C29D6A005C49EC /* Run.swift */,
+				C532368523C29D80005C49EC /* Cycle.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C536F77023802B9B00631ADB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5A5C250237DC5170043F89D /* MapWorkoutView.swift */,
+				C5BC732D23C38A5100A9F50A /* FWEndWorkoutButton.swift */,
+				C5BC732F23C38AD300A9F50A /* FWPauseWorkoutButton.swift */,
+				C5C3066223C47F6000B43A66 /* History Workout Table View Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C536F77223802BB000631ADB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5C80129237DD12200584789 /* HistoryViewController.swift */,
+				C5F6D396237C535600D7C2AF /* WorkoutViewController.swift */,
+				C5C8012B237DD78E00584789 /* WalkRunCycleViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C54A308023C653F100BBDE19 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C54A308123C6540100BBDE19 /* SimpleButton.swift */,
+				C54A308323C654CB00BBDE19 /* CustomButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C554EF2923C0C2A900CCFC50 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C554EF2A23C0C2BB00CCFC50 /* Date.swift */,
+				C532368723C2A590005C49EC /* String.swift */,
+				C54A307E23C653A800BBDE19 /* Colors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C559B88421DAF26F00261A3E /* Habit Progress View MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				C559B88523C01EC700261A3E /* HabitProgressView.swift */,
+			);
+			path = "Habit Progress View MVVM";
+			sourceTree = "<group>";
+		};
+		C55AF7BA23BE1024003733CF /* Habit Table Cell MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				C5E0A76C239337E200D160D9 /* HabitTableViewCell.swift */,
+				C5E0A76D239337E200D160D9 /* HabitTableViewCell.xib */,
+				C5BE958823BE9C0700A342A3 /* HabitMarkCompletedButton.swift */,
+			);
+			path = "Habit Table Cell MVVM";
+			sourceTree = "<group>";
+		};
+		C564E8562376EAEA00190832 = {
+			isa = PBXGroup;
+			children = (
+				C564E8612376EAEA00190832 /* Fitness */,
+				C564E8602376EAEA00190832 /* Products */,
+				7CF1DE19E77EEF205BC869EE /* Pods */,
+				70CB5D80D3356B7CC3696217 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C564E8602376EAEA00190832 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C564E85F2376EAEA00190832 /* Habitude.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C564E8612376EAEA00190832 /* Fitness */ = {
+			isa = PBXGroup;
+			children = (
+				C564E87B2376F09800190832 /* Authentication */,
+				C5F6D395237C4F1C00D7C2AF /* Main */,
+				C5C3A7D72378584500AA773D /* Summary */,
+				C5C3A7D923788B0500AA773D /* Workout */,
+				C5C3A7D823788AE400AA773D /* Sleep */,
+				C5C3A7D62378583400AA773D /* Meals */,
+				C58AB5C42378A72100BB3313 /* Habits */,
+				C5B09B47239128FC00FE5FE3 /* Services */,
+				C5C3A7DA23788B2200AA773D /* Others */,
+				C564E86E2376EAED00190832 /* Assets.xcassets */,
+				C5A5C252237DC6EE0043F89D /* Colors.xcassets */,
+				C5E83D8224E6EE1100AA8662 /* GoogleService-Info.plist */,
+				C564E8732376EAED00190832 /* Info.plist */,
+			);
+			path = Fitness;
+			sourceTree = "<group>";
+		};
+		C564E87B2376F09800190832 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				C56BE7C02398661C00413017 /* Views */,
+				C5E0A77523959B3C00D160D9 /* Controllers */,
+				C564E87E2376F0DD00190832 /* Authentication.storyboard */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		C56BE7C02398661C00413017 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C56BE7C12398664100413017 /* FAButton.swift */,
+				C5EB78CB23A181670019BD16 /* FATextField.swift */,
+				C54A308523C65ACC00BBDE19 /* FALoadingButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C576FFA9238DAF6900037446 /* Habit Creation */ = {
+			isa = PBXGroup;
+			children = (
+				C536F764237EE22500631ADB /* FHDayButton.swift */,
+				C536F769237F272000631ADB /* FHDayHabits.swift */,
+				C536F76B2380074B00631ADB /* FHColorButton.swift */,
+				C536F76D23801CFA00631ADB /* FHNoHabitsView.swift */,
+				C536F77323803C9900631ADB /* FHIdeasButton.swift */,
+				C576FFAA238DAF9E00037446 /* FHTypeView.swift */,
+			);
+			path = "Habit Creation";
+			sourceTree = "<group>";
+		};
+		C58AB5C42378A72100BB3313 /* Habits */ = {
+			isa = PBXGroup;
+			children = (
+				C536F762237EE12D00631ADB /* Model */,
+				C536F763237EE1FF00631ADB /* View */,
+				C536F766237EE37100631ADB /* Controllers */,
+				C58AB5C52378A73000BB3313 /* Habits.storyboard */,
+			);
+			path = Habits;
+			sourceTree = "<group>";
+		};
+		C5B09B47239128FC00FE5FE3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C5B09B45239075CA00FE5FE3 /* Networkable.swift */,
+				C540F5F623912BE300CD26ED /* Persistable.swift */,
+				C5B09B482391292100FE5FE3 /* NetworkService.swift */,
+				C5B09B4A2391294500FE5FE3 /* PresistenceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C5C3066223C47F6000B43A66 /* History Workout Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C5C3066323C47F9D00B43A66 /* WorkoutWalkTableViewCell.swift */,
+				C5C3066423C47F9D00B43A66 /* WorkoutWalkTableViewCell.xib */,
+			);
+			path = "History Workout Table View Cell";
+			sourceTree = "<group>";
+		};
+		C5C3066723C4B79F00B43A66 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5C3066823C4B7D700B43A66 /* SleepViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C5C3A7D62378583400AA773D /* Meals */ = {
+			isa = PBXGroup;
+			children = (
+				C51CF38D24EAD1FF00880C53 /* Controllers */,
+				C58AB5C023789E3100BB3313 /* Meals.storyboard */,
+			);
+			path = Meals;
+			sourceTree = "<group>";
+		};
+		C5C3A7D72378584500AA773D /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				C564E8792376EB0800190832 /* Summary.storyboard */,
+				C5C3A7D4237857FE00AA773D /* SummaryViewController.swift */,
+				C5483F1D2395A80A003099F3 /* ProfileViewController.swift */,
+			);
+			path = Summary;
+			sourceTree = "<group>";
+		};
+		C5C3A7D823788AE400AA773D /* Sleep */ = {
+			isa = PBXGroup;
+			children = (
+				C5C3066723C4B79F00B43A66 /* Controllers */,
+				C58AB5C223789E4200BB3313 /* Sleep.storyboard */,
+			);
+			path = Sleep;
+			sourceTree = "<group>";
+		};
+		C5C3A7D923788B0500AA773D /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+				C536F76F23802B9200631ADB /* Model */,
+				C536F77023802B9B00631ADB /* View */,
+				C536F77223802BB000631ADB /* Controllers */,
+				C5C3A7DB23788C8A00AA773D /* Workout.storyboard */,
+			);
+			path = Workout;
+			sourceTree = "<group>";
+		};
+		C5C3A7DA23788B2200AA773D /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C54A308023C653F100BBDE19 /* Views */,
+				C554EF2923C0C2A900CCFC50 /* Extensions */,
+				C564E8622376EAEA00190832 /* AppDelegate.swift */,
+				C564E8642376EAEA00190832 /* SceneDelegate.swift */,
+				C593F40D239829A400BB5575 /* Extenstions.swift */,
+				C5E67F2123A0FFF200815D34 /* Configuration.swift */,
+				C564E8702376EAED00190832 /* LaunchScreen.storyboard */,
+				C5C3065F23C41C1700B43A66 /* Fitness.xcdatamodeld */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C5E0A77023946AE000D160D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5E0A77123946AEB00D160D9 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C5E0A77523959B3C00D160D9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C564E87C2376F0B800190832 /* AuthenticationViewController.swift */,
+				C5E0A77623959BB000D160D9 /* LoginViewController.swift */,
+				C56F52872396A38600823DA1 /* SignUpViewController.swift */,
+				C56BE7BE239865E800413017 /* ForgotPasswordViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C5F6D395237C4F1C00D7C2AF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C5E0A77023946AE000D160D9 /* Model */,
+				C564E8662376EAEA00190832 /* MainViewController.swift */,
+				C564E8682376EAEA00190832 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C564E85E2376EAEA00190832 /* Fitness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C564E8762376EAED00190832 /* Build configuration list for PBXNativeTarget "Fitness" */;
+			buildPhases = (
+				DE408A87DBA09CD8BB9671F2 /* [CP] Check Pods Manifest.lock */,
+				C564E85B2376EAEA00190832 /* Sources */,
+				C564E85C2376EAEA00190832 /* Frameworks */,
+				C564E85D2376EAEA00190832 /* Resources */,
+				DBF4236D9D47512D364EF795 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fitness;
+			productName = Fitness;
+			productReference = C564E85F2376EAEA00190832 /* Habitude.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C564E8572376EAEA00190832 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Amine BEN ZAGGAGH";
+				TargetAttributes = {
+					C564E85E2376EAEA00190832 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = C564E85A2376EAEA00190832 /* Build configuration list for PBXProject "Fitness" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C564E8562376EAEA00190832;
+			productRefGroup = C564E8602376EAEA00190832 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C564E85E2376EAEA00190832 /* Fitness */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C564E85D2376EAEA00190832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5E83D8324E6EE1100AA8662 /* GoogleService-Info.plist in Resources */,
+				C58AB5C323789E4200BB3313 /* Sleep.storyboard in Resources */,
+				C564E8722376EAED00190832 /* LaunchScreen.storyboard in Resources */,
+				C564E86F2376EAED00190832 /* Assets.xcassets in Resources */,
+				C58AB5C123789E3100BB3313 /* Meals.storyboard in Resources */,
+				C564E86A2376EAEA00190832 /* Main.storyboard in Resources */,
+				C5E0A76F239337E200D160D9 /* HabitTableViewCell.xib in Resources */,
+				C5C3066623C47F9D00B43A66 /* WorkoutWalkTableViewCell.xib in Resources */,
+				C5A5C253237DC6EE0043F89D /* Colors.xcassets in Resources */,
+				C564E87A2376EB0800190832 /* Summary.storyboard in Resources */,
+				C5C3A7DC23788C8A00AA773D /* Workout.storyboard in Resources */,
+				C564E87F2376F0DD00190832 /* Authentication.storyboard in Resources */,
+				C58AB5C62378A73000BB3313 /* Habits.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DBF4236D9D47512D364EF795 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fitness/Pods-Fitness-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fitness/Pods-Fitness-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fitness/Pods-Fitness-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE408A87DBA09CD8BB9671F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fitness-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C564E85B2376EAEA00190832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56BE7BF239865E800413017 /* ForgotPasswordViewController.swift in Sources */,
+				C5BC733023C38AD300A9F50A /* FWPauseWorkoutButton.swift in Sources */,
+				C5E0A77723959BB000D160D9 /* LoginViewController.swift in Sources */,
+				C532368023C29D5F005C49EC /* Workout.swift in Sources */,
+				C559B88623C01EC700261A3E /* HabitProgressView.swift in Sources */,
+				C5E0A76E239337E200D160D9 /* HabitTableViewCell.swift in Sources */,
+				C5EB78CC23A181670019BD16 /* FATextField.swift in Sources */,
+				C536F76E23801CFA00631ADB /* FHNoHabitsView.swift in Sources */,
+				C536F761237EDF3B00631ADB /* HabitCreationViewController.swift in Sources */,
+				C540F5F723912BE300CD26ED /* Persistable.swift in Sources */,
+				C54A307F23C653A800BBDE19 /* Colors.swift in Sources */,
+				C564E8672376EAEA00190832 /* MainViewController.swift in Sources */,
+				C532368823C2A590005C49EC /* String.swift in Sources */,
+				C5E0A77223946AEB00D160D9 /* User.swift in Sources */,
+				C56BE7C22398664100413017 /* FAButton.swift in Sources */,
+				C576FFA8238DAD1200037446 /* HabitDetailsViewController.swift in Sources */,
+				C5F6D397237C535600D7C2AF /* WorkoutViewController.swift in Sources */,
+				C5C3066123C41C1700B43A66 /* Fitness.xcdatamodeld in Sources */,
+				C5BE958923BE9C0700A342A3 /* HabitMarkCompletedButton.swift in Sources */,
+				C59694CD238C8EAB0079761F /* Habit.swift in Sources */,
+				C54A308423C654CB00BBDE19 /* CustomButton.swift in Sources */,
+				C5C8012C237DD78E00584789 /* WalkRunCycleViewController.swift in Sources */,
+				C5C8012A237DD12200584789 /* HistoryViewController.swift in Sources */,
+				C59694CB238C8E110079761F /* Progress.swift in Sources */,
+				C5483F1E2395A80A003099F3 /* ProfileViewController.swift in Sources */,
+				C5F6733B2379977400BACBFA /* HabitsViewController.swift in Sources */,
+				C54A308623C65ACC00BBDE19 /* FALoadingButton.swift in Sources */,
+				C564E87D2376F0B800190832 /* AuthenticationViewController.swift in Sources */,
+				C53D29FA24EAA0CA00A96B42 /* HabitsWalkthroughViewController.swift in Sources */,
+				C536F77423803C9900631ADB /* FHIdeasButton.swift in Sources */,
+				C5A5C251237DC5170043F89D /* MapWorkoutView.swift in Sources */,
+				C576FFAD238EFCB500037446 /* Reminder.swift in Sources */,
+				C5BC732E23C38A5100A9F50A /* FWEndWorkoutButton.swift in Sources */,
+				C593F40E239829A400BB5575 /* Extenstions.swift in Sources */,
+				C51CF38F24EAD20C00880C53 /* MealsViewController.swift in Sources */,
+				C536F76C2380074B00631ADB /* FHColorButton.swift in Sources */,
+				C564E8632376EAEA00190832 /* AppDelegate.swift in Sources */,
+				C564E8652376EAEA00190832 /* SceneDelegate.swift in Sources */,
+				C54A308223C6540100BBDE19 /* SimpleButton.swift in Sources */,
+				C576FFAB238DAF9E00037446 /* FHTypeView.swift in Sources */,
+				C5C3066523C47F9D00B43A66 /* WorkoutWalkTableViewCell.swift in Sources */,
+				C5C3A7D5237857FE00AA773D /* SummaryViewController.swift in Sources */,
+				C56F52882396A38600823DA1 /* SignUpViewController.swift in Sources */,
+				C5E67F2223A0FFF200815D34 /* Configuration.swift in Sources */,
+				C5B09B4B2391294500FE5FE3 /* PresistenceService.swift in Sources */,
+				C536F76A237F272000631ADB /* FHDayHabits.swift in Sources */,
+				C5B09B46239075CA00FE5FE3 /* Networkable.swift in Sources */,
+				C5B09B492391292200FE5FE3 /* NetworkService.swift in Sources */,
+				C554EF2B23C0C2BC00CCFC50 /* Date.swift in Sources */,
+				C5C3066923C4B7D700B43A66 /* SleepViewController.swift in Sources */,
+				C536F765237EE22500631ADB /* FHDayButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C564E8682376EAEA00190832 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C564E8692376EAEA00190832 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C564E8702376EAED00190832 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C564E8712376EAED00190832 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C564E8742376EAED00190832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C564E8752376EAED00190832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C564E8772376EAED00190832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDE65D7EC97AD91B7ABB2A57 /* Pods-Fitness.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = XYSCZDXKR7;
+				INFOPLIST_FILE = Fitness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"z\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"AudioToolbox\"",
+					"-weak_framework",
+					"\"CoreGraphics\"",
+					"-weak_framework",
+					"\"CoreLocation\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"QuartzCore\"",
+					"-weak_framework",
+					"\"Security\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlbd.healthapp;
+				PRODUCT_NAME = Habitude;
+				PROVISIONING_PROFILE_SPECIFIER = Healthapp;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C564E8782376EAED00190832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6C7ED1E3FE26EDC81F9BBC6 /* Pods-Fitness.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = XYSCZDXKR7;
+				INFOPLIST_FILE = Fitness/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"z\"",
+					"-weak_framework",
+					"\"Accounts\"",
+					"-weak_framework",
+					"\"AudioToolbox\"",
+					"-weak_framework",
+					"\"CoreGraphics\"",
+					"-weak_framework",
+					"\"CoreLocation\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"QuartzCore\"",
+					"-weak_framework",
+					"\"Security\"",
+					"-weak_framework",
+					"\"Social\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlbd.healthapp;
+				PRODUCT_NAME = Habitude;
+				PROVISIONING_PROFILE_SPECIFIER = Healthapp;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C564E85A2376EAEA00190832 /* Build configuration list for PBXProject "Fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C564E8742376EAED00190832 /* Debug */,
+				C564E8752376EAED00190832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C564E8762376EAED00190832 /* Build configuration list for PBXNativeTarget "Fitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C564E8772376EAED00190832 /* Debug */,
+				C564E8782376EAED00190832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C5C3065F23C41C1700B43A66 /* Fitness.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C5C3066023C41C1700B43A66 /* Fitness.xcdatamodel */,
+			);
+			currentVersion = C5C3066023C41C1700B43A66 /* Fitness.xcdatamodel */;
+			path = Fitness.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C564E8572376EAEA00190832 /* Project object */;
+}
