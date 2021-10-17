@@ -93,8 +93,17 @@ To make sure our app matches all the requirements for Strava integration, check 
 
 # Milestones 
 1. Here is the full video of how much we have progressed so far in our RnD: https://vimeo.com/manage/videos/632831566
-2. Here is the full video of how much we have progrssed so far without healthkit. 
+2. Here is the full video of how much we have progrssed so far without healthkit. https://vimeo.com/manage/videos/634290496
 # Screenshots
+![Image from iOS (1)](https://user-images.githubusercontent.com/2936695/137617158-4372e7a5-5e39-4cf4-9af1-ec49bfb05186.png)
+
+
+![Image from iOS](https://user-images.githubusercontent.com/2936695/137617173-2bd9f50e-7650-4604-93f1-8b6621685b32.png)
+
+
+![Image from iOS (2)](https://user-images.githubusercontent.com/2936695/137617181-c5ef0304-d5b5-460c-937c-de758f7a6736.png)
+
+
 
 
 ![IMG_0052](https://user-images.githubusercontent.com/2936695/137481487-e95c1a7b-327a-4740-a464-d561f5c6aab8.PNG)
